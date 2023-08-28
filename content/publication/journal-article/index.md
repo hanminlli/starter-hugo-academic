@@ -30,8 +30,8 @@ abstract: Unveiling the heterogeneity in the tissues is crucial to explore cellâ
 # Summary. An optional shortened abstract.
 summary: \
 
-tags:
-- Source Themes
+# tags:
+# - Source Themes
 featured: false
 
 # links:
@@ -68,6 +68,7 @@ projects: []
 slides: ""
 ---
 
+<!--
 {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
@@ -77,3 +78,4 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 {{% /callout %}}
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+-->
