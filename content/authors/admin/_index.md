@@ -50,7 +50,7 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/
+    link: https://twitter.com/Hm1ly1
     label: Follow me on Twitter
     display:
       header: true
@@ -68,7 +68,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: ''
+    link: uploads/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'hanmin.li@kaust.edu.sa'

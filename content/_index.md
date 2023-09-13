@@ -205,6 +205,7 @@ sections:
   #     columns: '2'
   #     view: card
   - block: collection
+    id: publication
     content:
       title: Recent Publications
       text: |-
@@ -259,7 +260,7 @@ sections:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
+          link: 'https://twitter.com/Hm1ly1'
         # - icon: skype
         #   icon_pack: fab
         #   name: Skype Me

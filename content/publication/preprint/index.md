@@ -25,8 +25,8 @@ abstract: This paper introduces a new method for minimizing matrix-smooth non-co
 # Summary. An optional shortened abstract.
 summary: Matrix stepsized sketched compressed gradient descent in non convex setting.
 
-tags:
-- Source Themes
+# tags:
+# - Source Themes
 featured: false
 
 links:
