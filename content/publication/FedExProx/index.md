@@ -1,10 +1,10 @@
 ---
-title: "Variance Reduced Distributed Non-Convex Optimization Using Matrix Stepsizes"
+title: "The Power of Extrapolation in Federated Learning"
 authors:
 - admin
-- Avetik Karagulyan
+- Kirill Acharya
 - Peter Richtárik
-date: "2023-10-04T00:00:00Z"
+date: "2024-05-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -20,10 +20,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Matrix-stepsized gradient descent algorithms have been demonstrated to exhibit superior efficiency in non-convex optimization compared to their scalar counterparts. The det-CGD algorithm, as introduced by Li et al. (2023), leverages matrix stepsizes to perform compressed gradient descent for non-convex objectives and matrix-smooth problems in a federated manner. The authors establish the algorithm's convergence to a neighborhood of the weighted stationarity point under a convex condition for the symmetric and positive-definite stepsize matrix. In this paper, we propose a variance-reduced version of the det-CGD algorithm, incorporating the MARINA method. Notably, we establish theoretically and empirically, that det-MARINA outperforms both MARINA and the distributed det-CGD algorithms in terms of iteration and communication complexities.
+abstract: We propose and study several server-extrapolation strategies for enhancing the theoretical and empirical convergence properties of the popular federated learning optimizer FedProx [Li et al., 2020]. While it has long been known that some form of extrapolation can help in the practice of FL, only a handful of works provide any theoretical guarantees. The phenomenon seems elusive, and our current theoretical understanding remains severely incomplete. In our work, we focus on smooth convex or strongly convex problems in the interpolation regime. In particular, we propose Extrapolated FedProx (FedExProx), and study three extrapolation strategies, a constant strategy (depending on various smoothness parameters and the number of participating devices), and two smoothness-adaptive strategies; one based on the notion of gradient diversity (FedExProx-GraDS), and the other one based on the stochastic Polyak stepsize (FedExProx-StoPS). Our theory is corroborated with carefully constructed numerical experiments.
 
 # Summary. An optional shortened abstract.
-summary: Variance reduced matrix stepsize sketched gradient descent in the non-convex setting.
+summary: The theory of FedProx enhanced by extrapolation.
 
 # tags:
 # - Source Themes
@@ -32,7 +32,7 @@ featured: false
 links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: https://arxiv.org/abs/2310.04614
+url_pdf: https://arxiv.org/abs/2405.13766
 url_code: ''
 url_dataset: ''
 url_poster: ''
